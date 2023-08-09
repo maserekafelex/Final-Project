@@ -195,7 +195,6 @@ I would like to thank Cindy Shin the author of the original design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
