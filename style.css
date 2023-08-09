@@ -74,6 +74,10 @@ body {
   .nav-menu.active {
     left: 0;
   }
+
+  .txt {
+    display: none;
+  }
 }
 
 .wanted {
@@ -103,7 +107,6 @@ h2 {
 }
 
 .Content {
-  /* padding: auto; */
   color: rgb(249, 9, 9);
 }
 
@@ -112,7 +115,6 @@ h2 {
 }
 
 .date {
-  /* font-optical-sizing: 10px; */
   font-size: 20px;
   margin-left: 45px;
   color: rgba(12, 11, 11, 0.76);
@@ -176,98 +178,15 @@ h2 {
   gap: 10px;
 }
 
-.card-info {
-  text-align: center;
-  font-size: 15px;
-  color: #bd2b2b;
-  margin-top: 30px;
-}
-
-.info p {
-  font-size: 12px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.icon1 {
-  display: flex;
-  align-items: center;
-  margin: auto;
-  margin-left: 10px;
-}
-
-.ox {
-  font-size: 12px;
-}
-
-.card-icon {
-  width: 60px;
-  padding: 2px;
-  padding-top: 30%;
-  padding-left: 40%;
-}
-
-.icon {
-  width: 190px;
-  padding: 2px;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-left: 5%;
-}
-
-.con {
-  width: 110px;
-  height: 50px;
-  padding-top: 4%;
-  padding-left: 7%;
-}
-
-.noc {
-  width: 110px;
-  height: 70px;
-  padding-top: 4%;
-  padding-left: 7%;
-}
-
-.box {
-  text-align: center;
-}
-
-.card-box {
-  margin-right: 10px;
-}
-
-.join {
-  text-align: center;
-  background-color: maroon;
-  color: aliceblue;
-  display: flex;
-  margin: 60px;
-  padding: 2%;
-  font-size: 25px;
-  margin-right: 40px;
-}
-
 .HeaderTitle {
   flex-direction: row;
   gap: 5%;
   margin-left: 10px;
 }
 
-.speak {
-  background-color: aliceblue;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
 .TonicHeader {
   text-align: center;
   padding: 7%;
-}
-
-.image {
-  width: 175px;
-  height: 241px;
-  margin-bottom: 20px;
 }
 
 .TonicEnd {
@@ -342,6 +261,12 @@ h2 {
     list-style: none;
     font-size: 20px;
     font-size: small;
+    margin-left: 210px;
+  }
+
+  .kla {
+    width: 2%;
+    height: 2%;
   }
 
   #a {
@@ -382,12 +307,21 @@ h2 {
   }
 
   .contents-head {
-    margin-left: 25%;
+    margin-left: 12%;
   }
 
   .date {
     font-size: 15px;
-    margin-left: 314px;
+    margin-left: 165px;
+  }
+
+  .HeaderTitle {
+    gap: 5%;
+    columns: 2;
+    margin-left: 80px;
+    margin-right: 70px;
+    padding-left: 107px;
+    padding-right: 107px;
   }
 
   .art {
@@ -410,7 +344,7 @@ h2 {
   }
 
   .load p {
-    margin-left: 314px;
+    margin-left: 154px;
     margin-bottom: 27px;
   }
 
@@ -418,7 +352,7 @@ h2 {
     color: rgb(204, 60, 60);
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
-    margin-left: 25%;
+    margin-left: 12.5%;
     margin-right: 15%;
   }
 
@@ -433,7 +367,8 @@ h2 {
   .card-section {
     display: flex;
     justify-content: center;
-    background-color: rgba(12, 11, 11, 0.363);
+    background-color: rgb(12 11 11 / 95%);
+    padding-bottom: 86px;
   }
 
   .card-one {
@@ -441,12 +376,19 @@ h2 {
     float: left;
     width: 13%;
     padding: 10px 8px;
-    background-color: #ccc;
+    background-color: #3f3c3ca9;
     margin: 1px;
     height: 180px;
     margin-left: 167px;
     margin-right: -163px;
     margin-bottom: 3%;
+  }
+
+  .txt {
+    margin-top: -52px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
   }
 
   .card-info {
@@ -455,100 +397,84 @@ h2 {
     color: #bd2b2b;
     margin-top: -3px;
   }
+}
 
-  .info p {
-    font-size: 12px;
-    font-family: 'Times New Roman', Times, serif;
-  }
+.card-info {
+  text-align: center;
+  font-size: 15px;
+  color: #bd2b2b;
+}
 
-  .icon1 {
-    display: flex;
-    align-items: center;
-    margin: auto;
-  }
+.info p {
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+}
 
-  .ox {
-    font-size: 12px;
-  }
+.icon1 {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
 
-  .card-icon {
-    width: 60px;
-    padding: 2px;
-    padding-top: 30%;
-    padding-left: 40%;
-  }
+.ox {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.664);
+}
 
-  .icon {
-    width: 190px;
-    padding: 2px;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-  }
+.card-icon {
+  width: 60px;
+  padding: 2px;
+  padding-top: 30%;
+  padding-left: 40%;
+}
 
-  .con {
-    width: 110px;
-    height: 50px;
-    padding-top: 4%;
-    padding-left: 7%;
-  }
+.icon {
+  width: 190px;
+  padding: 2px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
 
-  .noc {
-    width: 110px;
-    height: 70px;
-    padding-top: 4%;
-    padding-left: 7%;
-  }
+.con {
+  width: 110px;
+  height: 50px;
+  padding-top: 4%;
+  padding-left: 7%;
+}
 
-  .box {
-    text-align: center;
-  }
+.noc {
+  width: 110px;
+  height: 70px;
+  padding-top: 4%;
+  padding-left: 7%;
+}
 
-  .card-box {
-    margin-right: 10px;
-  }
+.box {
+  text-align: center;
+}
 
-  .join {
-    display: none;
-  }
+.card-box {
+  margin-right: 10px;
+}
 
-  .HeaderTitle {
-    gap: 5%;
-    columns: 2;
-    margin-left: 80px;
-    margin-right: 70px;
-  }
+.join {
+  display: none;
+}
 
-  .speak {
-    background-color: aliceblue;
-    margin-top: 50px;
-    margin-bottom: 100px;
-  }
+.pas {
+  color: rgba(255, 255, 255, 0.664);
+}
 
-  .TonicHeader {
-    text-align: center;
-    padding: 1%;
-  }
+.speak {
+  background-color: aliceblue;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
 
-  .image {
-    width: 79px;
-    height: 100px;
-    margin-bottom: 20px;
-  }
-
-  .TonicEnd {
-    color: rgba(151, 61, 207, 0.509);
-    margin-top: -3px;
-    margin-left: 10px;
-  }
-
-  .bio {
-    margin-left: 10px;
-    font-size: small;
-  }
-
-  .x {
-    display: grid;
-    grid-template-rows: auto auto;
-  }
+.image {
+  width: 79px;
+  height: 112px;
+  margin-bottom: 20px;
+  padding-right: 5px;
 }

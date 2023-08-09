@@ -260,6 +260,11 @@
     margin-right: 75px;
   }
 
+  .kla {
+    width: 2%;
+    height: 2%;
+  }
+
   .lol {
     height: 15px;
     margin-top: 10px;
@@ -276,10 +281,11 @@
   .menu {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 27px;
     list-style: none;
     font-size: 20px;
     font-size: small;
+    margin-left: 277px;
   }
 
   .menu #a {
