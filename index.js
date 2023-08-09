@@ -2,7 +2,8 @@
 const speakersData = [
   {
     name: 'Yochai Benkler',
-    title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+    title:
+      'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     bio: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks, in 2006',
     image: 'Assets/feat img/yochai.JPG',
   },
@@ -59,7 +60,7 @@ function createSpeakerHTML(speaker) {
 const speakersContainer = document.getElementById('speakersContainer');
 
 // Populate the speakers
-for (const speaker of speakersData) {
+speakersData.forEach((speaker) => {
   const speakerHTML = createSpeakerHTML(speaker);
   speakersContainer.innerHTML += speakerHTML;
-}
+});
