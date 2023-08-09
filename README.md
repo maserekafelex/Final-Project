@@ -47,7 +47,7 @@
   
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/maserekafelex/Final-project)
+- [https://maserekafelex.github.io/Final-project/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
