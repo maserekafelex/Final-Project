@@ -85,10 +85,14 @@
   .contain {
     color: red;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
+    font-size: 26px;
   }
 
   .arab {
+    display: none;
+  }
+
+  .see-hr {
     display: none;
   }
 
@@ -293,6 +297,18 @@
     text-decoration: none;
   }
 
+  .hrx {
+    margin-top: 29px;
+    margin-bottom: 28px;
+  }
+
+  .see-hr {
+    width: 3%;
+    color: #ec5242;
+    border: 1px solid;
+    margin-top: -5px;
+  }
+
   .menu #a {
     color: #ec4327;
   }
@@ -320,15 +336,20 @@
   .log {
     display: flex;
     justify-items: center;
-    width: 250px;
-    height: 150px;
-    padding-left: 280px;
+    width: 225px;
+    height: 109px;
+    margin-left: 39%;
+    border: 1px solid gray;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .contain {
     color: red;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
+    font-size: 27px;
+    padding-left: 32%;
+    padding-right: 32%;
   }
 
   .p1 {
@@ -340,27 +361,27 @@
     border: 3px white solid;
     border-radius: 4px;
     padding: 5%;
-    font-size: 22px;
   }
 
   .place {
-    font-size: 18px;
-    padding: 10px;
+    font-size: 14px;
   }
 
   .year {
-    font-size: 20px;
+    font-size: 13px;
+    text-decoration: underline;
   }
 
   .Conten {
     text-align: center;
-    font-size: 20px;
-    padding: 5%;
+    font-size: 13px;
+    padding-left: 364px;
+    padding-right: 300px;
+    margin-bottom: 28px;
   }
 
   .Cont {
     text-align: center;
-    font-size: 20px;
     padding: 3%;
   }
 
@@ -371,6 +392,8 @@
     background-size: cover;
     width: 34%;
   }
+
+
 
   .times {
     color: #fff;
@@ -408,16 +431,22 @@
 
   .last {
     display: flex;
-    gap: 8%;
-    margin-left: 12%;
+    gap: 5%;
     margin-top: 10%;
-    margin-bottom: 10%;
+    padding-bottom: 20px;
     background-color: black;
   }
 
   .logo {
     width: 30%;
+    filter: invert(1);
     height: 79px;
+    margin-top: 24px;
+    margin-left: 12%;
+  }
+
+  .clov {
+    color: #fff;
   }
 
   h3 {
@@ -441,10 +470,13 @@
 
   .TonicEnd {
     text-align: center;
+    font-size: 19px;
+    font-weight: 600;
   }
 
   .arab {
     color: #fff;
     font-size: 11px;
+    padding-right: 52px;
   }
 }

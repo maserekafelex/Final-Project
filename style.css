@@ -406,19 +406,21 @@ h2 {
     text-align: center;
     font-size: 15px;
     color: #bd2b2b;
-    margin-top: -3px;
   }
 
   .hr-line {
     width: 5%;
     margin-top: -12px;
     margin-bottom: 30px;
+    color: #ec5242;
   }
 
   .hr-lin {
     width: 4%;
     margin-top: -93px;
     margin-bottom: 61px;
+    color: #ec5242;
+    border: 1px solid;
   }
 
   .card-icon {
@@ -470,10 +472,19 @@ h2 {
   }
 }
 
+.hr-part {
+  width: 3%;
+  color: #ec5242;
+  border: 1px solid;
+  margin-top: -5px;
+}
+
 .hr-line {
   width: 5%;
   margin-top: -12px;
   margin-bottom: 30px;
+  color: #ec5242;
+  border: 1px solid;
 }
 
 .card-info {
@@ -482,10 +493,9 @@ h2 {
   color: #bd2b2b;
 }
 
-.info p {
-  font-size: 12px;
-  font-family: 'Times New Roman', Times, serif;
-}
+/* .pas {
+  font-family: sans-serif;
+} */
 
 .icon1 {
   display: flex;
@@ -541,6 +551,8 @@ h2 {
 
 .pas {
   color: rgba(255, 255, 255, 0.664);
+  font-size: 14px;
+  margin-top: -10px;
 }
 
 .speak {
