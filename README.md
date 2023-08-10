@@ -22,7 +22,6 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-
 # 📖 [Final-project] <a name="about-project"></a>
 
 **[Final-projct]** is my first final project that i have build using html,css and js.
