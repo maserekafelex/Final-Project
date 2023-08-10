@@ -288,6 +288,11 @@
     margin-left: 277px;
   }
 
+  ul li {
+    list-style: none;
+    text-decoration: none;
+  }
+
   .menu #a {
     color: #ec4327;
   }
@@ -408,10 +413,6 @@
     margin-top: 10%;
     margin-bottom: 10%;
     background-color: black;
-  }
-
-  .clov {
-    color: white;
   }
 
   .logo {
